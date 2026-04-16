@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Partnership — NBA Week 2026</title>
+    <meta name="description" content="Become a Media Partner at Nigeria Blockchain & AI Week 2026. Reach 10,000+ blockchain, AI & crypto professionals. October 22–23, 2026, Lagos, Nigeria.">
+    <link rel="icon" type="image/png" href="/nba-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/fonts/local-fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        .mp-hero {
+            padding: 140px 0 80px;
+            text-align: center;
+            background: linear-gradient(180deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        .mp-hero::before {
+            content: '';
+            position: absolute;
+            top: -120px; left: 50%;
+            transform: translateX(-50%);
+            width: 700px; height: 700px;
+            background: radial-gradient(circle, rgba(183,211,52,0.07) 0%, transparent 65%);
+            pointer-events: none;
+        }
+        .mp-hero .section-badge { margin: 0 auto 18px; }
+        .mp-hero h1 {
+            font-family: var(--font-display);
+            font-size: clamp(30px, 5vw, 52px);
+            font-weight: 800;
+            letter-spacing: -1.5px;
+            line-height: 1.1;
+            margin-bottom: 18px;
+        }
+        .mp-hero p {
+            font-size: 17px;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto 32px;
+            line-height: 1.7;
+        }
+
+        /* Benefits grid */
+        .mp-benefits {
+            padding: 80px 0;
+        }
+        .mp-benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .mp-benefit-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-lg);
+            padding: 28px;
+            transition: border-color 0.25s, transform 0.25s;
+        }
+        .mp-benefit-card:hover {
+            border-color: rgba(183,211,52,0.3);
+            transform: translateY(-4px);
+        }
+        .mp-benefit-icon {
+            font-size: 28px;
+            margin-bottom: 14px;
+        }
+        .mp-benefit-card h4 {
+            font-family: var(--font-display);
+            font-size: 17px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .mp-benefit-card p {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.65;
+        }
+
+        /* Tiers */
+        .mp-tiers {
+            padding: 80px 0;
+            background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+        }
+        .mp-tiers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .mp-tier-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-lg);
+            padding: 32px;
+            text-align: center;
+            transition: border-color 0.25s, box-shadow 0.25s;
+        }
+        .mp-tier-card.featured {
+            border-color: rgba(183,211,52,0.4);
+            box-shadow: 0 0 0 1px rgba(183,211,52,0.1), 0 12px 40px rgba(0,0,0,0.25);
+        }
+        .mp-tier-card h3 {
+            font-family: var(--font-display);
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .mp-tier-badge {
+            display: inline-block;
+            padding: 4px 16px;
+            border-radius: var(--radius-full);
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        .mp-tier-perks {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 28px;
+            text-align: left;
+        }
+        .mp-tier-perks li {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 13px;
+            color: var(--text-secondary);
+            padding: 6px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+        .mp-tier-perks li:last-child { border-bottom: none; }
+        .mp-tier-perks li i { color: #B7D334; font-size: 11px; flex-shrink: 0; }
+
+        /* Apply form */
+        .mp-apply {
+            padding: 80px 0;
+        }
+        .mp-form-wrap {
+            max-width: 640px;
+            margin: 0 auto;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-xl);
+            padding: 48px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+        }
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            background: rgba(255,255,255,0.04);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-md);
+            padding: 12px 16px;
+            color: var(--text-primary);
+            font-family: var(--font-sans);
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.2s;
+            box-sizing: border-box;
+        }
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            border-color: rgba(183,211,52,0.5);
+        }
+        .form-group select option { background: #0E1D2D; }
+        .form-group textarea { resize: vertical; min-height: 110px; }
+
+        @media (max-width: 600px) {
+            .mp-form-wrap { padding: 28px 20px; }
+            .mp-benefits-grid, .mp-tiers-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+  <link rel="stylesheet" crossorigin href="/assets/style-1zJN4tt0.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <img src="https://nigeriablockchainandaiweek.com/wp-content/uploads/2025/07/nba-logo2-e1754906358103.png" alt="NBA Week Logo" class="logo-img" width="72" height="72">
+            </a>
+            <nav class="nav">
+                <a href="index.html#about" class="nav-link">About</a>
+                <a href="index.html#schedule" class="nav-link">Schedule</a>
+                <a href="index.html#speakers" class="nav-link">Speakers</a>
+                <a href="index.html#sponsors" class="nav-link">Sponsor</a>
+                <a href="exhibition.html" class="nav-link nav-link-exhibition"><i class="fas fa-store"></i> Exhibition <span class="nav-blink"></span></a>
+                <a href="media-partner.html" class="nav-link">Media Partner</a>
+                <a href="index.html#faq" class="nav-link">FAQ</a>
+            </nav>
+            <div class="header-actions">
+                <a href="register.html" class="btn btn-primary btn-sm">Register</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="mp-hero">
+        <div class="container">
+            <div class="section-badge"><i class="fas fa-microphone"></i> Media Partnership</div>
+            <h1>Partner with Africa's <span class="gradient-text">Biggest Web3 Summit</span></h1>
+            <p>Reach <strong style="color:#fff;">10,000+ blockchain, AI & crypto professionals</strong> as a Media Partner at NBA Week 2026 — October 22–23, 2026, Lagos, Nigeria.</p>
+            <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
+                <a href="#apply" class="btn btn-primary btn-lg">Apply Now</a>
+                <a href="#tiers" class="btn btn-outline btn-lg">View Packages</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="mp-benefits" id="benefits">
+        <div class="container">
+            <div class="section-badge">Why Partner with Us</div>
+            <h2 class="section-title">What You Get as a Media Partner</h2>
+
+            <div class="mp-benefits-grid">
+                <div class="mp-benefit-card">
+                    <div class="mp-benefit-icon">📡</div>
+                    <h4>Massive Audience Reach</h4>
+                    <p>Tap into NBA Week's 10,000+ in-person attendees and tens of thousands of online followers across West Africa and the global Web3 community.</p>
+                </div>
+                <div class="mp-benefit-card">
+                    <div class="mp-benefit-icon">🎤</div>
+                    <h4>Exclusive Interviews</h4>
+                    <p>Get backstage access to conduct exclusive interviews with top blockchain, AI, and fintech leaders, investors, and policymakers at the summit.</p>
+                </div>
+                <div class="mp-benefit-card">
+                    <div class="mp-benefit-icon">🏷️</div>
+                    <h4>Brand Visibility</h4>
+                    <p>Your logo on the event website, stage backdrops, video broadcasts, email campaigns, and all official NBA Week publications and press materials.</p>
+                </div>
+                <div class="mp-benefit-card">
+                    <div class="mp-benefit-icon">📰</div>
+                    <h4>Press Accreditation</h4>
+                    <p>Full press credentials for your reporters and camera crew, including access to press conferences, speaker sessions, and VIP networking areas.</p>
+                </div>
+                <div class="mp-benefit-card">
+                    <div class="mp-benefit-icon">🤝</div>
+                    <h4>Cross-Promotion</h4>
+                    <p>NBA Week promotes your media outlet to our audience across social media, email newsletters, and on-stage acknowledgements throughout the event.</p>
+                </div>
+                <div class="mp-benefit-card">
+                    <div class="mp-benefit-icon">📸</div>
+                    <h4>Content Access</h4>
+                    <p>Receive official event photos, video highlights, and press releases for exclusive or first-use publication on your platform.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tiers -->
+    <section class="mp-tiers" id="tiers">
+        <div class="container">
+            <div class="section-badge">Partnership Tiers</div>
+            <h2 class="section-title">Choose Your Media Partnership Level</h2>
+
+            <div class="mp-tiers-grid">
+                <!-- Platinum Media -->
+                <div class="mp-tier-card featured">
+                    <h3>Platinum Media</h3>
+                    <span class="mp-tier-badge" style="background:linear-gradient(135deg,#7C3AED,#A855F7); color:#fff;">Top Tier</span>
+                    <ul class="mp-tier-perks">
+                        <li><i class="fas fa-check"></i> Logo on all event materials & stage</li>
+                        <li><i class="fas fa-check"></i> 5 press accreditations</li>
+                        <li><i class="fas fa-check"></i> Dedicated press booth at venue</li>
+                        <li><i class="fas fa-check"></i> Exclusive keynote speaker interviews</li>
+                        <li><i class="fas fa-check"></i> First-use rights to official content</li>
+                        <li><i class="fas fa-check"></i> Featured in email campaigns (50k+ subscribers)</li>
+                        <li><i class="fas fa-check"></i> Social media spotlight posts</li>
+                        <li><i class="fas fa-check"></i> VIP dinner & awards invitations</li>
+                    </ul>
+                    <a href="#apply" class="btn btn-primary" style="width:100%; text-align:center; display:block;">Apply for Platinum</a>
+                </div>
+
+                <!-- Gold Media -->
+                <div class="mp-tier-card">
+                    <h3>Gold Media</h3>
+                    <span class="mp-tier-badge" style="background:linear-gradient(135deg,#B8860B,#FFD700); color:#080D08;">Gold</span>
+                    <ul class="mp-tier-perks">
+                        <li><i class="fas fa-check"></i> Logo on website & digital materials</li>
+                        <li><i class="fas fa-check"></i> 3 press accreditations</li>
+                        <li><i class="fas fa-check"></i> Speaker interview access</li>
+                        <li><i class="fas fa-check"></i> Official event content rights</li>
+                        <li><i class="fas fa-check"></i> Mentioned in press releases</li>
+                        <li><i class="fas fa-check"></i> Social media mentions</li>
+                    </ul>
+                    <a href="#apply" class="btn btn-outline" style="width:100%; text-align:center; display:block;">Apply for Gold</a>
+                </div>
+
+                <!-- Standard Media -->
+                <div class="mp-tier-card">
+                    <h3>Standard Media</h3>
+                    <span class="mp-tier-badge" style="background:rgba(255,255,255,0.1); color:var(--text-secondary);">Standard</span>
+                    <ul class="mp-tier-perks">
+                        <li><i class="fas fa-check"></i> Listed as media partner on website</li>
+                        <li><i class="fas fa-check"></i> 2 press accreditations</li>
+                        <li><i class="fas fa-check"></i> Access to press conference</li>
+                        <li><i class="fas fa-check"></i> Official press releases</li>
+                        <li><i class="fas fa-check"></i> Event summary content package</li>
+                    </ul>
+                    <a href="#apply" class="btn btn-outline" style="width:100%; text-align:center; display:block;">Apply for Standard</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form -->
+    <section class="mp-apply" id="apply">
+        <div class="container">
+            <div style="text-align:center; margin-bottom:48px;">
+                <div class="section-badge">Apply</div>
+                <h2 class="section-title">Apply for Media Partnership</h2>
+                <p class="section-subtitle">Fill out the form below and our team will reach out within 48 hours.</p>
+            </div>
+
+            <div class="mp-form-wrap">
+                <form id="mediaPartnerForm" onsubmit="handleMediaSubmit(event)">
+                    <div class="form-group">
+                        <label for="orgName">Media Organisation Name *</label>
+                        <input type="text" id="orgName" name="orgName" placeholder="e.g. CoinDesk Africa" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactName">Contact Person Name *</label>
+                        <input type="text" id="contactName" name="contactName" placeholder="Full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" placeholder="contact@youroutlet.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+234 ...">
+                    </div>
+                    <div class="form-group">
+                        <label for="website">Website / Platform URL *</label>
+                        <input type="url" id="website" name="website" placeholder="https://youroutlet.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="tier">Partnership Tier of Interest *</label>
+                        <select id="tier" name="tier" required>
+                            <option value="" disabled selected>Select a tier</option>
+                            <option value="platinum">Platinum Media</option>
+                            <option value="gold">Gold Media</option>
+                            <option value="standard">Standard Media</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="reach">Estimated Monthly Audience / Reach</label>
+                        <input type="text" id="reach" name="reach" placeholder="e.g. 50,000 monthly readers">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Why do you want to partner with NBA Week?</label>
+                        <textarea id="message" name="message" placeholder="Tell us about your outlet and what you can offer..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width:100%; font-size:15px; padding:14px;">Submit Application</button>
+                </form>
+                <p id="form-success" style="display:none; text-align:center; margin-top:20px; color:#B7D334; font-weight:600;">
+                    ✅ Application received! Our team will contact you within 48 hours.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <img src="https://nigeriablockchainandaiweek.com/wp-content/uploads/2025/07/nba-logo2-e1754906358103.png" alt="NBA Week Logo" class="logo-img" width="40" height="40">
+                        <span class="logo-text">NBA Week</span>
+                    </a>
+                    <p>Nigeria Blockchain & AI Week — Africa's premier annual summit. Organized by CoinNewsExtra, Africa's number one Web3 TV.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="index.html#about">About</a>
+                    <a href="index.html#schedule">Schedule</a>
+                    <a href="index.html#speakers">Speakers</a>
+                    <a href="index.html#sponsors">Sponsors</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Get Involved</h4>
+                    <a href="https://nbaweekform.netlify.app/speaker">Become a Speaker</a>
+                    <a href="https://nbaweekform.netlify.app/partnership">Become a Partner</a>
+                    <a href="exhibition.html">Exhibition Booth</a>
+                    <a href="media-partner.html">Media Partner</a>
+                    <a href="register.html">Register</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Follow Us</h4>
+                    <div class="footer-social">
+                        <a href="https://x.com/Nbaweek_Ng" aria-label="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.facebook.com/share/1BkNvK429n/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/nbaweek.ng" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/nigeria-blockchain-and-ai-week/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nigeria Blockchain & AI Week. All rights reserved. Organized by CoinNewsExtra.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu
+        var mobileBtn = document.querySelector('.mobile-menu-btn');
+        var nav = document.querySelector('.nav');
+        if (mobileBtn && nav) {
+            mobileBtn.addEventListener('click', function () {
+                var isOpen = nav.classList.toggle('mobile-open');
+                mobileBtn.querySelector('i').className = isOpen ? 'fas fa-times' : 'fas fa-bars';
+            });
+        }
+        // Header scroll
+        var header = document.querySelector('.header');
+        window.addEventListener('scroll', function () {
+            if (header) header.classList.toggle('scrolled', window.scrollY > 50);
+        }, { passive: true });
+
+        // Form submit (mailto fallback)
+        function handleMediaSubmit(e) {
+            e.preventDefault();
+            var form = e.target;
+            var data = new FormData(form);
+            var body = [];
+            data.forEach(function (val, key) { if (val) body.push(key + ': ' + val); });
+            var mailto = 'mailto:info@coincoinblockchain.com'
+                + '?subject=' + encodeURIComponent('Media Partnership Application — NBA Week 2026')
+                + '&body=' + encodeURIComponent(body.join('\n'));
+            window.location.href = mailto;
+            form.style.display = 'none';
+            document.getElementById('form-success').style.display = 'block';
+        }
+    </script>
+</body>
+</html>

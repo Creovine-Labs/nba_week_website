@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Nigeria Blockchain & AI Week 2026</title>
+    <meta name="description" content="Register for Nigeria Blockchain and AI Week 2026. Secure your place and stay updated on event details.">
+    <link rel="icon" type="image/png" href="/nba-logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/fonts/local-fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="register-page">
+    <header class="header scrolled">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <img src="https://nigeriablockchainandaiweek.com/wp-content/uploads/2025/07/nba-logo2-e1754906358103.png" alt="NBA Week Logo" class="logo-img" width="72" height="72">
+            </a>
+            <nav class="nav">
+                <a href="index.html#about" class="nav-link">About</a>
+                <a href="index.html#schedule" class="nav-link">Schedule</a>
+                <a href="index.html#speakers" class="nav-link">Speakers</a>
+                <a href="index.html#booths" class="nav-link">Booths</a>
+            </nav>
+            <div class="header-actions">
+                <a href="index.html" class="btn btn-outline">Back to Home</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="register-main">
+        <section class="register-hero">
+            <div class="container">
+                <div class="register-card">
+                    <div class="section-badge">Register To Attend</div>
+                    <h1 class="section-title">Register now to secure your place and stay updated on all event details</h1>
+                    <p class="section-desc">Save The Date</p>
+                    <h2 class="register-subtitle">Be A Part of Nigeria's Foremost Blockchain Event</h2>
+                    <p class="section-desc">Register and/or partner with us using the links below.</p>
+                    <div class="register-actions">
+                        <button type="button" class="btn btn-primary btn-lg" id="openAttendForm">Register To Attend</button>
+                        <a href="https://nbaweekform.netlify.app/speaker" class="btn btn-outline btn-lg">Become A Speaker</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="register-form-section is-hidden" id="attendFormSection" aria-hidden="true">
+            <div class="container">
+                <div class="register-form-card">
+                    <h2 class="register-form-title">Your Info</h2>
+                    <form class="attend-form" action="#" method="post">
+                        <div class="form-field">
+                            <label for="attendName">Name *</label>
+                            <input id="attendName" name="name" type="text" placeholder="Your Name" required>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="attendEmail">Email *</label>
+                            <input id="attendEmail" name="email" type="email" placeholder="you@email.com" required>
+                        </div>
+
+                        <div class="form-grid-2">
+                            <div class="form-field">
+                                <label for="attendCity">City *</label>
+                                <input id="attendCity" name="city" type="text" required>
+                            </div>
+                            <div class="form-field">
+                                <label for="attendCountry">Country *</label>
+                                <input id="attendCountry" name="country" type="text" required>
+                            </div>
+                        </div>
+
+                        <div class="form-grid-2">
+                            <div class="form-field">
+                                <label for="attendIndustry">Industry *</label>
+                                <select id="attendIndustry" name="industry" required>
+                                    <option value="" selected disabled>Select an option</option>
+                                    <option value="blockchain">Blockchain</option>
+                                    <option value="ai">Artificial Intelligence</option>
+                                    <option value="fintech">Fintech</option>
+                                    <option value="web3">Web3</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-field">
+                                <label for="attendRole">Role *</label>
+                                <input id="attendRole" name="role" type="text" required>
+                            </div>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="attendCompany">What company do you work for? *</label>
+                            <input id="attendCompany" name="company" type="text" required>
+                        </div>
+
+                        <label class="form-check" for="dinnerAttendance">
+                            <input id="dinnerAttendance" name="dinnerAttendance" type="checkbox">
+                            <span>Dinner Party Attendance? (Subject to admin approval)</span>
+                        </label>
+
+                        <button type="submit" class="btn btn-primary">Register</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="register-contact-section">
+            <div class="container register-contact-grid">
+                <article class="register-contact-card">
+                    <h3>Venue</h3>
+                    <p>Landmark Event Centre,<br>Plot 2 &amp; 3, Water Corporation Drive,<br>Victoria Island, Lagos, Nigeria.</p>
+                </article>
+                <article class="register-contact-card">
+                    <h3>Email</h3>
+                    <p>Email: <a href="mailto:partner@nigeriablockchainandaiweek.com">partner@nigeriablockchainandaiweek.com</a></p>
+                </article>
+                <article class="register-contact-card">
+                    <h3>Contact</h3>
+                    <p>Elite: <a href="tel:+2348116857576">+234 811 685 7576</a></p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="margin-top:0; padding-top:28px;">
+                <p>&copy; 2026 Nigeria Blockchain &amp; AI Week. All rights reserved. Organized by CoinNewsExtra.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        (function () {
+            var openBtn = document.getElementById('openAttendForm');
+            var formSection = document.getElementById('attendFormSection');
+            if (!openBtn || !formSection) return;
+
+            openBtn.addEventListener('click', function () {
+                formSection.classList.remove('is-hidden');
+                formSection.setAttribute('aria-hidden', 'false');
+                formSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                openBtn.textContent = 'Form Opened';
+            });
+        })();
+    </script>
+    </body>
+</html>
