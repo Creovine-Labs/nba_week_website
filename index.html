@@ -7,9 +7,11 @@
     <meta name="description" content="Nigeria Blockchain and AI Week (NBA Week) 2026 is Africa's premier blockchain and AI innovation summit. October 22-23, 2026 at Landmark Event Centre, Lagos.">
     <link rel="icon" type="image/png" href="/nba-logo.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-itconf.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="/fonts/local-fonts.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;0,800;0,900;1,800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
@@ -29,7 +31,7 @@
                 <a href="#faq" class="nav-link">FAQ</a>
             </nav>
             <div class="header-actions">
-                <a href="register.html" class="btn btn-primary btn-sm">Register</a>
+                <a href="register.html" class="btn btn-primary btn-sm">Register &#8599;</a>
             </div>
             <button class="mobile-menu-btn" aria-label="Menu">
                 <i class="fas fa-bars"></i>
@@ -39,44 +41,42 @@
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-bg-shapes"></div>
-        <div class="hero-glow hero-glow-1"></div>
-        <div class="hero-glow hero-glow-2"></div>
-        <div class="hero-glow hero-glow-3"></div>
+        <div class="hero-bg">
+            <img src="/images/1.jpeg" alt="Nigeria Blockchain &amp; AI Week 2026 Conference">
+            <div class="hero-overlay"></div>
+        </div>
         <div class="container hero-inner">
-            <div class="hero-content">
-                <div class="hero-date-badge"><i class="fas fa-calendar-alt"></i> October 22–23, 2026 • Lagos, Nigeria</div>
-                <h1 class="hero-title">Nigeria <span class="gradient-text">Blockchain & AI</span> Week 2026</h1>
-                <p class="hero-subtitle">Africa's Premier Blockchain and AI Innovation Summit — Join 10,000+ attendees in <strong style="color:#fff;">Lagos, Nigeria.</strong> <strong style="color:#fff;">October 22–23, 2026.</strong></p>
-                <div class="hero-actions">
-                    <a href="register.html" class="btn btn-primary btn-lg">Register Now</a>
-                    <a href="#highlights" class="btn-text">
-                        <i class="fas fa-play-circle"></i>
-                        Watch 2026 Highlights
-                    </a>
-                </div>
-                <div class="hero-big-text" aria-hidden="true">NBA WEEK</div>
+            <div class="hero-meta">
+                <span class="hero-meta-date">October 22–23, 2026</span>
+                <span class="hero-meta-sep">—</span>
+                <span class="hero-meta-city">Lagos, Nigeria</span>
             </div>
-            <div class="hero-visual">
-                <div class="hero-image-stack">
-                    <div class="hero-img hero-img-main">
-                        <img src="/images/1.jpeg" alt="NBA Week conference">
+            <h1 class="hero-title">Nigeria<br>Blockchain<br><em>&amp; AI</em> Week<br>2026</h1>
+            <div class="hero-bottom-row">
+                <div class="hero-speakers-badge">
+                    <div class="hero-speaker-avatars">
+                        <img src="/past speakers/lisa-gibbons.jpg" alt="Speaker">
+                        <img src="/past speakers/stanley-jacob.png" alt="Speaker">
+                        <img src="/past speakers/uyoyo-ogedegbe.jpg" alt="Speaker">
                     </div>
-                    <div class="hero-img hero-img-float hero-img-float-1">
-                        <img src="https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=300&h=220&fit=crop" alt="Speaker on stage">
-                    </div>
-                    <div class="hero-img hero-img-float hero-img-float-2">
-                        <img src="/images/2.webp" alt="NBA Week Lagos">
+                    <span class="hero-speakers-label">50+ Expert<br>Speakers</span>
+                    <a href="#speakers" class="hero-arrow" aria-label="View speakers">&#8599;</a>
+                </div>
+                <div class="hero-event-info">
+                    <h2 class="hero-event-title">Africa's Premier Blockchain and AI Innovation Summit</h2>
+                    <p class="hero-event-desc">Join 10,000+ attendees from 20+ countries for two days of keynotes, panels, workshops, startup showcases, and policy dialogue in Lagos, Nigeria.</p>
+                    <div class="hero-event-actions">
+                        <a href="register.html" class="btn btn-primary">&#8599; Register Now</a>
+                        <a href="#highlights" class="btn btn-ghost"><i class="fas fa-play-circle"></i> Watch Highlights</a>
                     </div>
                 </div>
-                <div class="hero-stat-badge hero-stat-1">
-                    <i class="fas fa-users"></i>
-                    <span>10,000+ Attendees</span>
-                </div>
-                <div class="hero-stat-badge hero-stat-2">
-                    <i class="fas fa-globe-africa"></i>
-                    <span>20+ Countries</span>
-                </div>
+            </div>
+            <div class="hero-contact-bar">
+                <span><i class="fas fa-map-marker-alt"></i> Landmark Event Centre, Lagos</span>
+                <span class="hero-contact-sep">|</span>
+                <span><i class="fas fa-users"></i> 10,000+ Attendees</span>
+                <span class="hero-contact-sep">|</span>
+                <span><i class="fas fa-globe-africa"></i> 20+ Countries</span>
             </div>
         </div>
     </section>
@@ -84,6 +84,7 @@
     <!-- Countdown Section -->
     <section class="countdown-section">
         <div class="container">
+            <div class="countdown-label">Event Starts In</div>
             <div class="countdown-wrapper">
                 <div class="flip-unit">
                     <div class="flip-digits" id="days-digits"></div>
@@ -113,20 +114,20 @@
         <div class="container">
             <div class="stats-grid">
                 <div class="stat-card">
-                    <i class="fas fa-users"></i>
-                    <span>10,000+ Attendees</span>
+                    <span class="stat-number">10,000+</span>
+                    <span class="stat-label">Attendees</span>
                 </div>
                 <div class="stat-card">
-                    <i class="fas fa-microphone-alt"></i>
-                    <span>50+ Speakers</span>
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Speakers</span>
                 </div>
                 <div class="stat-card">
-                    <i class="fas fa-globe-africa"></i>
-                    <span>20+ Countries</span>
+                    <span class="stat-number">20+</span>
+                    <span class="stat-label">Countries</span>
                 </div>
                 <div class="stat-card">
-                    <i class="fas fa-newspaper"></i>
-                    <span>10+ Media Partners</span>
+                    <span class="stat-number">10+</span>
+                    <span class="stat-label">Media Partners</span>
                 </div>
             </div>
         </div>
@@ -143,10 +144,10 @@
                 <p class="section-desc" style="margin-top: 16px;">Now in its sixth edition, NBA Week is proudly organized by <strong>CoinNewsExtra</strong>, Africa's number one Web3 TV, dedicated to blockchain, AI, and crypto, in collaboration with the <strong>Fintech Association of Nigeria (FAN)</strong>.</p>
                 <p class="section-desc" style="margin-top: 16px;">NBA Week serves as a dynamic platform for thought leadership, strategic collaboration, policy dialogue, startup showcases, and product launches, accelerating Africa's position in the global emerging technology landscape.</p>
             </div>
-            <div style="margin-top: 24px; display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
-                <button class="btn btn-outline btn-sm" id="aboutMoreBtn">Read More</button>
-                <a href="register.html" class="btn btn-primary">Register Now</a>
-            </div>
+                <div style="margin-top: 24px; display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
+                    <button class="btn btn-outline btn-sm" id="aboutMoreBtn">Read More</button>
+                    <a href="register.html" class="btn btn-primary">&#8599; Register Now</a>
+                </div>
             </div>
         </div>
     </section>
@@ -379,6 +380,28 @@
         </div>
     </section>
 
+    <!-- Speaker Marquee Strip -->
+    <div class="section-marquee-strip">
+        <div class="section-marquee-track">
+            <span>PAST SPEAKERS</span><span class="mq-dot">✶</span>
+            <span>PAST SPEAKERS</span><span class="mq-dot">✶</span>
+            <span>PAST SPEAKERS</span><span class="mq-dot">✶</span>
+            <span>PAST SPEAKERS</span><span class="mq-dot">✶</span>
+            <span>PAST SPEAKERS</span><span class="mq-dot">✶</span>
+            <span>PAST SPEAKERS</span><span class="mq-dot">✶</span>
+            <span>PAST SPEAKERS</span><span class="mq-dot">✶</span>
+            <span>PAST SPEAKERS</span><span class="mq-dot">✶</span>
+            <span>PAST SPEAKERS</span><span class="mq-dot">✶</span>
+            <span>PAST SPEAKERS</span><span class="mq-dot">✶</span>
+            <span>PAST SPEAKERS</span><span class="mq-dot">✶</span>
+            <span>PAST SPEAKERS</span><span class="mq-dot">✶</span>
+            <span>PAST SPEAKERS</span><span class="mq-dot">✶</span>
+            <span>PAST SPEAKERS</span><span class="mq-dot">✶</span>
+            <span>PAST SPEAKERS</span><span class="mq-dot">✶</span>
+            <span>PAST SPEAKERS</span><span class="mq-dot">✶</span>
+        </div>
+    </div>
+
     <!-- Speakers Section -->
     <section class="speakers-section" id="speakers">
         <div class="container">
@@ -389,49 +412,65 @@
                 <div class="speakers-carousel" id="speakersCarousel">
                     <div class="speaker-card">
                         <div class="speaker-img"><img src="/past speakers/lisa-gibbons.jpg" alt="Lisa Gibbons"></div>
-                        <h4>Lisa Gibbons</h4>
-                        <p>Head of Marketing, MeWe</p>
+                        <div class="speaker-info">
+                            <span class="speaker-role">Head of Marketing, MeWe</span>
+                            <h4>Lisa Gibbons <span class="speaker-arrow">&#8599;</span></h4>
+                        </div>
                     </div>
                     <div class="speaker-card">
                         <div class="speaker-img"><img src="/past speakers/krishnan-ranganath.jpg" alt="Dr. Krishnan Ranganath"></div>
-                        <h4>Dr. Krishnan Ranganath</h4>
-                        <p>Regional Executive West Africa, Africa Data Centers</p>
+                        <div class="speaker-info">
+                            <span class="speaker-role">Regional Executive West Africa, Africa Data Centers</span>
+                            <h4>Dr. Krishnan Ranganath <span class="speaker-arrow">&#8599;</span></h4>
+                        </div>
                     </div>
                     <div class="speaker-card">
                         <div class="speaker-img"><img src="/past speakers/stanley-jacob.png" alt="Dr. Stanley Jacob"></div>
-                        <h4>Dr. Stanley Jacob</h4>
-                        <p>President, Fintech Association of Nigeria</p>
+                        <div class="speaker-info">
+                            <span class="speaker-role">President, Fintech Association of Nigeria</span>
+                            <h4>Dr. Stanley Jacob <span class="speaker-arrow">&#8599;</span></h4>
+                        </div>
                     </div>
                     <div class="speaker-card">
                         <div class="speaker-img"><img src="/past speakers/hugh-keku-aryee.png" alt="H.E. Amb. Prof. Hugh Keku Aryee"></div>
-                        <h4>H.E. Amb. Prof. Hugh Keku Aryee</h4>
-                        <p>Trade Commissioner, Vanuatu Trade Commission – Ghana</p>
+                        <div class="speaker-info">
+                            <span class="speaker-role">Trade Commissioner, Vanuatu Trade Commission – Ghana</span>
+                            <h4>H.E. Amb. Prof. Hugh Keku Aryee <span class="speaker-arrow">&#8599;</span></h4>
+                        </div>
                     </div>
                     <div class="speaker-card">
                         <div class="speaker-img"><img src="/past speakers/vit-jedlicka.png" alt="H.E. Vit Jedlicka"></div>
-                        <h4>H.E. Vit Jedlicka</h4>
-                        <p>President, The Free Republic of Liberland</p>
+                        <div class="speaker-info">
+                            <span class="speaker-role">President, The Free Republic of Liberland</span>
+                            <h4>H.E. Vit Jedlicka <span class="speaker-arrow">&#8599;</span></h4>
+                        </div>
                     </div>
                     <div class="speaker-card">
                         <div class="speaker-img"><img src="/past speakers/olubunmi-fabanwo.jpg" alt="Olubunmi Fabanwo"></div>
-                        <h4>Olubunmi Fabanwo</h4>
-                        <p>Convener, Africa Blockchain Festival</p>
+                        <div class="speaker-info">
+                            <span class="speaker-role">Convener, Africa Blockchain Festival</span>
+                            <h4>Olubunmi Fabanwo <span class="speaker-arrow">&#8599;</span></h4>
+                        </div>
                     </div>
                     <div class="speaker-card">
                         <div class="speaker-img"><img src="/past speakers/uyoyo-ogedegbe.jpg" alt="Uyoyo Ogedegbe"></div>
-                        <h4>Uyoyo Ogedegbe</h4>
-                        <p>Managing Director, cNGN</p>
+                        <div class="speaker-info">
+                            <span class="speaker-role">Managing Director, cNGN</span>
+                            <h4>Uyoyo Ogedegbe <span class="speaker-arrow">&#8599;</span></h4>
+                        </div>
                     </div>
                     <div class="speaker-card">
                         <div class="speaker-img"><img src="/past speakers/vivian-mbene.png" alt="Vivian Mbene"></div>
-                        <h4>Vivian Mbene</h4>
-                        <p>COO, Breet</p>
+                        <div class="speaker-info">
+                            <span class="speaker-role">COO, Breet</span>
+                            <h4>Vivian Mbene <span class="speaker-arrow">&#8599;</span></h4>
+                        </div>
                     </div>
                 </div>
                 <button class="carousel-btn carousel-btn-next" id="speakersNext" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
             </div>
             <div style="text-align:center; margin-top:40px;">
-                <a href="https://nbaweekform.netlify.app/speaker" class="btn btn-outline">Become a Speaker</a>
+                <a href="https://nbaweekform.netlify.app/speaker" class="btn btn-outline">&#8599; Become a Speaker</a>
             </div>
         </div>
     </section>
@@ -478,7 +517,7 @@
             </div>
 
             <div style="text-align:center; margin-top:40px;">
-                <a href="https://nbaweekform.netlify.app/partnership" class="btn btn-primary">Become a Partner</a>
+                <a href="https://nbaweekform.netlify.app/partnership" class="btn btn-primary">&#8599; Become a Partner</a>
             </div>
         </div>
     </section>
@@ -623,9 +662,9 @@
             <div class="cta-inner">
                 <h2>Be a part of Nigeria's foremost blockchain event</h2>
                 <p>Register to attend or partner with us for NBA Week 2026</p>
-                <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
-                    <a href="register.html" class="btn btn-white btn-lg">Register to Attend</a>
-                    <a href="https://nbaweekform.netlify.app/partnership" class="btn btn-outline btn-lg" style="border-color:#fff;color:#fff;">Become a Partner</a>
+                <div class="cta-actions">
+                    <a href="register.html" class="btn btn-cta-dark btn-lg">&#8599; Register to Attend</a>
+                    <a href="https://nbaweekform.netlify.app/partnership" class="btn btn-cta-outline btn-lg">&#8599; Become a Partner</a>
                 </div>
             </div>
         </div>
