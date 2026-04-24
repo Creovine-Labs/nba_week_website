@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partnership Registration | Nigeria Blockchain & AI Week 2026</title>
+    <meta name="description" content="Register your company as a booth partner for Nigeria Blockchain and AI Week 2026.">
+    <link rel="icon" type="image/png" href="/nba-logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/fonts/local-fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="register-page">
+    <header class="header scrolled">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <img src="https://nigeriablockchainandaiweek.com/wp-content/uploads/2025/07/nba-logo2-e1754906358103.png" alt="NBA Week Logo" class="logo-img" width="72" height="72">
+            </a>
+            <nav class="nav">
+                <a href="index.html#about" class="nav-link">About</a>
+                <a href="index.html#schedule" class="nav-link">Schedule</a>
+                <a href="index.html#speakers" class="nav-link">Speakers</a>
+                <a href="index.html#booths" class="nav-link">Booths</a>
+            </nav>
+            <div class="header-actions">
+                <a href="index.html" class="btn btn-outline">Back to Home</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="register-main">
+        <section class="partnership-hero">
+            <div class="container">
+                <div class="partnership-hero-inner">
+                    <div class="section-badge">Booth Packages</div>
+                    <h1 class="section-title">Partnership Registration</h1>
+                    <p class="section-desc">Thank you for your interest in our conference! Please fill out all required information below.</p>
+                    <div id="selectedPackageBadge" class="partnership-package-badge" style="display:none;"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="partnership-form-section">
+            <div class="container partnership-form-wrap">
+                <div class="register-form-card">
+                    <form class="attend-form" id="partnershipForm" action="#" method="post" novalidate>
+                        <input type="hidden" name="package" id="packageInput" value="">
+
+                        <div class="form-field">
+                            <label for="partnerName">Full Name <span class="form-required">*</span></label>
+                            <input id="partnerName" name="name" type="text" placeholder="John Stone" required>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="partnerCompany">Company <span class="form-required">*</span></label>
+                            <input id="partnerCompany" name="company" type="text" placeholder="ABC Ltd." required>
+                        </div>
+
+                        <div class="form-grid-2">
+                            <div class="form-field">
+                                <label for="partnerRole">Role <span class="form-required">*</span></label>
+                                <input id="partnerRole" name="role" type="text" placeholder="Founder" required>
+                            </div>
+                            <div class="form-field">
+                                <label for="partnerLocation">Company Location <span class="form-required">*</span></label>
+                                <input id="partnerLocation" name="location" type="text" placeholder="Lagos, Nigeria" required>
+                            </div>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="partnerEmail">Email <span class="form-required">*</span></label>
+                            <input id="partnerEmail" name="email" type="email" placeholder="xyz@email.com" required>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="partnerDescription">Description Of Company <span class="form-required">*</span></label>
+                            <textarea id="partnerDescription" name="description" placeholder="Tell us about your company…" rows="4" required></textarea>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="partnerMeeting">Book a Meeting <span class="form-optional">(GMT +1:00) — Optional</span></label>
+                            <input id="partnerMeeting" name="meeting" type="datetime-local">
+                        </div>
+
+                        <div class="partnership-form-actions">
+                            <button type="submit" class="btn btn-primary btn-lg">
+                                <i class="fas fa-paper-plane"></i> Submit
+                            </button>
+                        </div>
+                    </form>
+
+                    <div class="partnership-success is-hidden" id="partnershipSuccess">
+                        <div class="partnership-success-icon"><i class="fas fa-check-circle"></i></div>
+                        <h3>Submission Received!</h3>
+                        <p>Thank you for registering your interest. Our team will be in touch with you shortly.</p>
+                        <a href="index.html" class="btn btn-outline">Back to Home</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="register-contact-section">
+            <div class="container register-contact-grid">
+                <article class="register-contact-card">
+                    <h3>Venue</h3>
+                    <p>Landmark Event Centre,<br>Plot 2 &amp; 3, Water Corporation Drive,<br>Victoria Island, Lagos, Nigeria.</p>
+                </article>
+                <article class="register-contact-card">
+                    <h3>Email</h3>
+                    <p><a href="mailto:partner@nigeriablockchainandaiweek.com">partner@nigeriablockchainandaiweek.com</a></p>
+                </article>
+                <article class="register-contact-card">
+                    <h3>Contact</h3>
+                    <p>Elite: <a href="tel:+2348116857576">+234 811 685 7576</a><br>Chike: <a href="tel:+2348137209710">+234 813 720 9710</a></p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="margin-top:0; padding-top:28px;">
+                <p>&copy; 2026 Nigeria Blockchain &amp; AI Week. All rights reserved. Organized by CoinNewsExtra.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        (function () {
+            // Read query param ?package=Gold etc.
+            var params = new URLSearchParams(window.location.search);
+            var pkg = params.get('package');
+            if (pkg) {
+                var badge = document.getElementById('selectedPackageBadge');
+                var input = document.getElementById('packageInput');
+                if (badge) {
+                    badge.style.display = 'inline-flex';
+                    badge.textContent = pkg + ' Booth Package Selected';
+                }
+                if (input) input.value = pkg;
+            }
+
+            // Form submit — show success state
+            var form = document.getElementById('partnershipForm');
+            var success = document.getElementById('partnershipSuccess');
+            if (!form || !success) return;
+
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+
+                // Basic validation
+                var required = form.querySelectorAll('[required]');
+                var valid = true;
+                required.forEach(function (field) {
+                    if (!field.value.trim()) {
+                        field.style.borderColor = '#ff5757';
+                        valid = false;
+                    } else {
+                        field.style.borderColor = '';
+                    }
+                });
+                if (!valid) return;
+
+                form.style.display = 'none';
+                success.classList.remove('is-hidden');
+                success.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            });
+        }());
+    </script>
+    </body>
+</html>

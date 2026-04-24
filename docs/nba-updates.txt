@@ -1,0 +1,266 @@
+
+**Nigeria Blockchain & AI Week 2026**  
+**Full Website Copy – Ready for Development**  
+**Date: April 20, 2026**  
+**Theme: Agenda 2036 – Building Africa’s Trillion-Dollar Digital Economy at the Intersection of AI, Blockchain & Stablecoins**
+
+### DEVELOPER INSTRUCTIONS (Implement These First)
+
+1. **60-Day Countdown Timer**  
+   Add a prominent **live countdown timer** (Days : Hours : Minutes : Seconds) on Exhibition Booth page, clearly labeled:  
+   **“20% Early-Bird Discount Ends In: [Countdown Timer] – All booth prices will increase by 20% after 60 days.”**
+
+2. **Booth Pricing Display**  
+   For each booth tier, show:  
+   **Current Discounted Price** ~~Original Full Price~~  
+   Example: **GOLD – $3,000** ~~$3,750~~ *(20% Early-Bird Discount – Price becomes $3,750 when countdown ends)*  
+   Add note at the bottom of the exhibition page: “Prices will automatically update to full rate when the 60-day countdown reaches zero.”
+
+3. **Instant Booth Purchase Flow**  
+   Each booth package must have a **“Buy [Package] Booth Now”** button.  
+   Clicking opens a modal with:  
+   - Choice: **Pay with Card (Fiat via Paystack)** or **Pay with Crypto** (USDT / BTC / ETH).  
+   - **Fiat**: Seamless redirect to Paystack for instant confirmation.  
+   - **Crypto**: System **automatically generates a unique wallet address** for the selected coin. User sends payment → System **auto-confirms** on-chain → Immediate booth reservation, email confirmation, and WhatsApp notification.  
+   No manual approval needed. Show real-time payment status.
+
+4. **General Requirements**  
+   - Sticky “Register Free Now” button on mobile.  
+   - Use strong, benefit-driven language throughout.  
+   - Add visual infographic strip for Nigeria/AI dominance stats after the hero.
+
+---
+
+### HERO SECTION (Homepage Top)
+
+**Main Headline** (Large, bold, centered)  
+**Nigeria Leads the World in Crypto, Stablecoins & AI Innovation**  
+**Agenda 2036: Nigeria Blockchain & AI Week 2026**
+
+**Sub-Headline**  
+The must-attend summit where Nigeria’s global dominance in stablecoins, crypto adoption, and AI-powered solutions converges to build Africa’s trillion-dollar digital economy.
+
+**Dominance Stats Bar** (Visual strip with icons/flags – high visibility)  
+🇳🇬 **#6 Globally in Crypto Adoption** (Chainalysis 2025 Global Adoption Index)  
+🇳🇬 **$92.1 Billion** in crypto value received — nearly triple the next African country  
+🇳🇬 **World #1 in Stablecoin Adoption** — 59% of crypto users hold USDT (BVNK 2026)  
+🇳🇬 **Africa’s AI Growth Engine** — Nigeria driving rapid AI adoption with enterprises scaling AI solutions; continent-wide AI market projected to reach **$16.5 Billion by 2030**
+
+**Event Details**  
+**October 22–23, 2026** | Lagos, Nigeria  
+10,000+ Attendees • 50+ Expert Speakers • 20+ Countries • 10+ Media Partners
+
+**CTA Buttons** (Prominent, side-by-side)  
+**Register Free Now – Limited Spots Remaining**  
+**Watch NBA Week 2025 Highlights**
+
+**Short Urgency Line**  
+Last year’s attendees closed major deals, secured funding, and launched AI + blockchain solutions in Lagos. This year, Agenda 2036 starts here.
+
+---
+
+### WHY ATTEND SECTION
+
+**Heading**  
+**Why 10,000+ Leaders Are Already Securing Their Spot at NBA Week 2026**
+
+**Intro Paragraph**  
+NBA Week 2026 is the epicenter of Nigeria’s world-leading crypto, stablecoin, and **AI revolution**. Two high-impact days of visionary keynotes, powerful panels, hands-on AI & blockchain workshops, explosive startup pitches, and unmatched networking with the people shaping Africa’s trillion-dollar digital future.
+
+**Benefit Bullets** (Use icons for each)
+
+- **Network at the Heart of Africa’s Crypto & AI Powerhouse**  
+  Connect face-to-face with 10,000+ high-intent professionals in the country that leads the world in stablecoin adoption, crypto volume, and AI-driven innovation.
+
+- **Gain Actionable Insights on Agenda 2036**  
+  Learn from 50+ experts on AI agents, stablecoin-powered payments, AI-blockchain convergence, next-generation DeFi, Web3 infrastructure, and policies driving Nigeria’s digital dominance.
+
+- **Launch or Scale Your AI + Blockchain Vision**  
+  Pitch your startup or product on the main stage and attract investors actively funding AI agents, stablecoin solutions, and blockchain infrastructure.
+
+- **Unlock Capital & Strategic Partnerships**  
+  Meet VCs, angels, and corporates hunting the next big play at the intersection of AI and blockchain in Africa’s fastest-growing digital asset market.
+
+- **Influence Policy That Shapes the Future**  
+  Engage Central Bank of Nigeria officials and regulators defining rules for stablecoins, AI governance, and blockchain across the continent.
+
+- **Massive Brand & Media Exposure**  
+  Gain visibility through 10+ international media partners and post-event coverage that positions you as a leader in Nigeria’s global AI + crypto ecosystem.
+
+**Who Should Attend**  
+Blockchain & Web3 builders • AI researchers & engineers • Stablecoin & crypto traders • Startup founders • Investors & VCs • Regulators & policymakers • Developers & tech professionals • Students & academics • Fintech executives • Media & influencers
+
+**CTA**  
+**Secure Your Free Registration Now Before Spots Sell Out**
+
+---
+
+### AGENDA / SCHEDULE SECTION
+
+**Heading**  
+**Agenda 2036 Live: Two Days That Will Define Africa’s Trillion-Dollar AI + Blockchain Economy**
+
+**Intro**  
+From visionary keynotes on AI agents and stablecoin innovation to hands-on workshops and the grand Pitch Competition & Awards Night — every session is designed to deliver real strategies at the intersection of AI, blockchain, and stablecoins.
+
+(Insert detailed day-by-day schedule here. Add short benefit lines under major sessions.)
+
+**Closing Line**  
+Day 2 culminates with the Hackathon, Final Pitch Competition & Awards Night — where tomorrow’s Nigerian AI + blockchain unicorns are born.
+
+---
+
+### PAST SPEAKERS SECTION
+
+**Heading**  
+**Join the Visionaries Already Shaping Agenda 2036**
+
+(Keep existing speaker logos/images.)
+
+**CTA Button**  
+**Apply to Speak – Limited Main Stage Slots Available**
+
+---
+
+### PAST SPONSORS & PARTNERS SECTION
+
+**Heading**  
+**Stand Shoulder-to-Shoulder with the Brands Powering Nigeria’s AI + Crypto Leadership**
+
+(Keep existing sponsor logos.)
+
+**CTA**  
+**Become a Sponsor or Partner – Limited Premium Opportunities**
+
+---
+
+### TESTIMONIALS SECTION
+
+**Heading**  
+**Real Results from Real Leaders**
+
+(Keep existing attendee/speaker quotes.)
+
+---
+
+### VENUE SECTION
+
+**Heading**  
+**Lagos, Nigeria – The Beating Heart of Africa’s AI, Stablecoin & Blockchain Revolution**
+
+**Short Description**  
+Nigeria’s commercial capital and the epicenter of Africa’s crypto and AI movement — the perfect location for maximum networking, innovation showcases, and unforgettable experiences.
+
+---
+
+### FAQ SECTION
+
+**Heading**  
+**Frequently Asked Questions**
+
+- **What is Nigeria Blockchain & AI Week 2026?**  
+  Africa’s premier annual summit at the intersection of **AI, blockchain, and stablecoins**. Now in its 6th edition, it is where Nigeria’s global leadership drives Agenda 2036 — building the continent’s trillion-dollar digital economy.
+
+- **Why Nigeria?**  
+  Nigeria ranks #6 globally in crypto adoption (Chainalysis 2025), leads the world in stablecoin ownership (59% hold USDT – BVNK 2026), and is rapidly scaling AI adoption. With $92.1 billion in crypto value received, Nigeria is the undisputed gateway to Africa’s AI + blockchain future.
+
+- **When and where is the event?**  
+  October 22–23, 2026 in Lagos, Nigeria.
+
+- **Is attendance free?**  
+  Yes — general attendance is **completely free**. Register early to secure your spot.
+
+- **Can I pay with crypto?**  
+  Absolutely. We accept **USDT, BTC, and ETH** — perfect for the country that leads global stablecoin adoption.
+
+- **How do I sponsor, exhibit, or speak?**  
+  We offer tailored packages. Download the Partnership Deck or book a direct call.
+
+---
+
+### BOOK A MEETING SECTION
+
+**Heading**  
+**Let’s Talk Business – Book a Direct Meeting with the NBA Week Team**
+
+**Intro**  
+Interested in sponsorship, exhibition booths, media partnership, speaking, or custom collaboration? Book a slot instantly.
+
+**CTA Button**  
+**Book a Meeting Now**
+
+---
+
+### EXHIBITION BOOTHS PAGE (https://nba-week.web.app/exhibition)
+
+**Page Title**  
+**Secure Your Exhibition Booth at NBA Week 2026**
+
+**Hero Heading**  
+**Showcase Your AI, Blockchain or Stablecoin Solution to 10,000+ Decision-Makers in the World’s Top Crypto Market**
+
+**Sub-Heading**  
+Put your product directly in front of Africa’s most active blockchain, AI, and crypto audience in the country that processed **$92.1 billion** in crypto value and leads globally in stablecoin adoption.
+
+**Why Exhibit** (Use icons)
+
+- Tap into Nigeria’s explosive stablecoin & AI economy and generate qualified leads on the spot  
+- Gain massive brand visibility among high-intent investors, builders, and buyers  
+- Close partnerships and sales in Africa’s #1 AI + crypto market  
+- Position your company at the center of Agenda 2036
+
+**Booth Packages**  
+*(All prices reflect 20% Early-Bird Discount. Prices will increase by 20% when the 60-day countdown ends.)*
+
+**GOLD – $3,000** ~~$3,750~~ *(20% Early-Bird Discount – Becomes $3,750 after 60 days)*  
+**Premium positioning for market leaders**  
+- Prominent logo placement across venue, website, social media, video recaps & email campaigns  
+- Dedicated promotional assistant pass  
+- Exclusive executive interview feature  
+- 9 lunch invites + 5 VIP Executive Dinner & Awards Night passes
+
+**SILVER – $2,000** ~~$2,500~~ *(20% Early-Bird Discount – Becomes $2,500 after 60 days)*  
+**High-impact presence with excellent ROI**  
+- Logo across all major channels  
+- Promotional assistant pass  
+- Executive interview  
+- 6 lunch invites + 3 VIP passes
+
+**RUBY – $1,200** ~~$1,500~~ *(20% Early-Bird Discount – Becomes $1,500 after 60 days)*  
+**Strong visibility for growing brands**  
+- Logo visibility + executive interview  
+- 3 lunch invites + 2 VIP passes  
+- Official participation certificate
+
+**BRONZE – $1,000** ~~$1,250~~ *(20% Early-Bird Discount – Becomes $1,250 after 60 days)*  
+**Smart entry into Nigeria’s crypto & AI powerhouse**  
+- Logo at venue, website & socials  
+- 2 lunch invites + 1 VIP pass  
+- Official certificate
+
+**CORAL – $500** ~~$625~~ *(20% Early-Bird Discount – Becomes $625 after 60 days)*  
+**Compact yet effective starter booth**  
+- Logo visibility + certificate  
+- 1 lunch invite
+
+**Payment Options Heading**  
+**Secure Your Booth in Minutes – Instant Fiat or Crypto Payment**
+
+(Implement the instant purchase flow as described in Developer Instructions above.)
+
+**WhatsApp CTA**  
+**WhatsApp +234 811 685 7576 Now to Reserve Your Booth**
+
+**Strong Urgency Line** (Make prominent at bottom)  
+**20% Early-Bird Discount active now. Countdown timer running. Prices increase automatically after 60 days. Limited prime locations remaining — Lock in your rate today.**
+
+
+070 5299 3537
+WhatsApp number
+
+We re subscribing for the official email so after we send the calendar
+
+Our theme
+ Theme: 
+
+Agenda 2036: Building Africa’s Trillion-Dollar Digital Economy at the Intersection of AI, Blockchain & Stablecoins

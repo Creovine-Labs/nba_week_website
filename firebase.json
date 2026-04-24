@@ -1,6 +1,8 @@
 {
   "hosting": {
-    "public": "dist",
+    "public": "deploy",
+    "cleanUrls": true,
+    "trailingSlash": false,
     "headers": [
       {
         "source": "/",
